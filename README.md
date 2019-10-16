@@ -16,6 +16,10 @@ You will need:
 After linking all components together and uploading the code into the Arduino, you can play your song by copying its sequence into a serial terminal, such as the IDE's serial monitor, and pressing the Send button. Once the device finishes playing the song, it will prompt for another.
 
 ## Contents
-* **music_player_serial.ino:** The code to be loaded into the Arduino
-* **note_replacer.html:** A tool to convert melody strings with NOTE_* variables into their respective values
+* **music_player_serial.ino:** The code to be loaded into the Arduino.
+* **note_replacer.html:** A tool to convert melody strings with NOTE_* variables into their respective values. Contains a reference table for the notes.
 * **songs folder:** Some examples of melodies you can try. Simply copy a file's contents and paste on the terminal.
+
+## Known glitches
+* If you enabled line endings on the serial terminal, the song may play twice.
+* The Super Mario file has some flaws on the melody. Please don't blame us! :/
